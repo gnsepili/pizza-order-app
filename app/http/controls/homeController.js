@@ -1,7 +1,12 @@
+const MenuDB= require('../../models/menu');
+
+
 function homeController() {
   return {
-    index(req, res) {
-      res.render('home');
+    async index(req, res) {
+        const data=await MenuDB.find();
+        res.render('home',{'pizzas':data});
+        // console.log(data);
     }
   };
 }

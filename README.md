@@ -18,7 +18,7 @@
 - [x] - move routes to routes files
 - [x] - Create dedicated controllers
 - [ ] Add to cart functionality
-    - [ ] Fetch all pizzas from db and show on home page
+    - [x] Fetch all pizzas from db and show on home page
     - [ ] Create menu model and put dummy Data
         - connect to mongo db
         - use connect-mongo for session store
