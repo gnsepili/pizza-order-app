@@ -12,11 +12,11 @@
     - setup js and scss
 - [x] Install tailwind css
 - [x] Create Home page using Html and Css
-- [ ] Create Cart page
+- [x] Create Cart page
     - order summary section
     - empty cart section
-- [ ] - move routes to routes files
-- [ ] - Create dedicated controllers
+- [x] - move routes to routes files
+- [x] - Create dedicated controllers
 - [ ] Add to cart functionality
     - [ ] Fetch all pizzas from db and show on home page
     - [ ] Create menu model and put dummy Data
