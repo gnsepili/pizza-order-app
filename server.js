@@ -55,6 +55,16 @@ app.use(flash())
 //Assetsget
 app.use(express.static("public"));
 
+app.use(express.json())
+
+// Global middleware
+app.use((req, res, next) => {
+  res.locals.session = req.session
+  res.locals.user = req.user
+  next()
+})
+
+
 //set templete engine
 app.use(expressLayouts);
 app.set("views", path.join(__dirname, "resources/views"));

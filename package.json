@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/capgos17/pizza-order-app#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "connect-mongo": "^3.2.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.6",
@@ -29,6 +30,7 @@
     "express-flash": "0.0.2",
     "express-session": "^1.17.1",
     "mongoose": "^5.12.2",
+    "noty": "^3.2.0-beta-deprecated",
     "nvm": "0.0.4"
   },
   "devDependencies": {

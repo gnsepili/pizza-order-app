@@ -25,7 +25,7 @@
             <span class="size py-1 px-4 rounded-full uppercase text-xs"><%=pizza.size%></span>
             <div class="flex items-center justify-between mt-6">
                 <span class="font-bold text-lg"><%=pizza.price%></span>
-                <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                <button data-pizza="<%= JSON.stringify(pizza) %>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
                     <span>+</span>
                     <span class="ml-4">Add</span>
                 </button>
